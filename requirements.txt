@@ -1,0 +1,4 @@
+# Exact versions used in the original analysis.
+# pyswisseph provides Python bindings to Swiss Ephemeris (Moshier analytical mode).
+
+pyswisseph==2.10.3.2
