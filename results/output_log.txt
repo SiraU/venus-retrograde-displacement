@@ -1,0 +1,193 @@
+================================================================================
+Step 1: Computing all Venus retrograde stations (800 BCE to 2027 CE)
+================================================================================
+   -799 to  -499: 376 stations
+   -499 to  -199: 376 stations
+   -199 to   100: 376 stations
+    100 to   500: 502 stations
+    500 to  1000: 627 stations
+   1000 to  1500: 628 stations
+   1500 to  2027: 660 stations
+
+Total retrograde periods: 1768
+
+Loaded 82 displacement events from data/events_82.csv
+
+================================================================================
+Step 2: Event-to-nearest-retrograde matching (n=82)
+================================================================================
+
+      Year | S |  Match | Days | Event
+------------------------------------------------------------------------------------------
+   734 BCE | D | DIRECT |    0 | MÖ 734: Asur - Kuzey İsrail sürgünü
+   722 BCE | B |    FAR |  256 | MÖ 722: Asur - Samaria sürgünü
+   701 BCE | E |   YEAR |  178 | MÖ 701: Asur - Sanherib Yahuda
+   597 BCE | E |    FAR |  239 | MÖ 597: Babil - I. Sürgün
+   586 BCE | B |    FAR |  188 | MÖ 586: Babil - Tapınak yıkılır
+   353 BCE | B |   YEAR |  175 | MÖ 353: Atina - Sestos
+   335 BCE | D |   YEAR |  125 | MÖ 335: İskender - Thebai
+   167 BCE | D | DIRECT |    0 | MÖ 167: Antiokhus IV - Kudüs
+     70 CE | A |    FAR |  212 | MS 70: Roma - Kudüs yıkılır
+    135 CE | B |   PROX |    4 | MS 135: Bar Kohba
+    415 CE | B |   PROX |   17 | MS 415: İskenderiye
+   1096 CE | C | DIRECT |    0 | I. Haçlı: Ren Yahudi katliamları
+   1099 CE | E | DIRECT |    0 | Kudüs fethi katliamı
+   1182 CE | B |   YEAR |  124 | Fransa: Paris Yahudi sürgünü
+   1240 CE | C |    FAR |  236 | Moğol: Kiev yıkılır
+   1290 CE | D |    FAR |  251 | İNGİLTERE: Yahudi Sürgünü
+   1298 CE | D |    FAR |  250 | Almanya: Rindfleisch
+   1306 CE | D |    FAR |  258 | FRANSA: Yahudi sürgünü
+   1348 CE | A |   YEAR |  163 | Kara Veba pogromları
+   1391 CE | C |    FAR |  225 | İspanya: Sevilla pogromları
+   1394 CE | E |    FAR |  204 | FRANSA: Son Yahudi sürgünü
+   1421 CE | A |   YEAR |   89 | Avusturya: Yahudi sürgünü
+   1492 CE | A |    FAR |  195 | İSPANYA: Alhambra
+   1497 CE | D |   YEAR |   35 | Portekiz: Yahudi sürgünü
+   1572 CE | A |   PROX |   26 | St. Bartholomew Katliamı
+   1604 CE | A |   PROX |   25 | İran: Ermeni sürgünü
+   1609 CE | D |   YEAR |   79 | İSPANYA: Moriscos
+   1648 CE | C |   YEAR |  175 | Ukrayna: Khmelnytsky
+   1652 CE | A | DIRECT |    0 | İrlanda: Cromwell
+   1685 CE | B |   YEAR |  159 | FRANSA: Huguenot sürgünü
+   1755 CE | E |   YEAR |  161 | Acadians Sürgünü
+   1821 CE | B |    FAR |  246 | Odessa Pogromu (ilk pogrom)
+   1838 CE | B |   YEAR |   81 | ABD: TRAIL OF TEARS
+   1864 CE | C |    FAR |  214 | ÇERKEZ SÜRGÜNÜ
+   1881 CE | D | DIRECT |    0 | Rusya: Pogromlar başlar
+   1890 CE | E |   PROX |    4 | Wounded Knee
+   1903 CE | C |   YEAR |  130 | Kişinev Pogromu
+   1905 CE | D |   YEAR |  149 | Kiev Pogromu
+   1906 CE | E |   YEAR |  148 | Bialystok Pogromu
+   1913 CE | D |   YEAR |  152 | Balkan Savaşları
+   1915 CE | E |   YEAR |  127 | ERMENİ TEHCİRİ
+   1922 CE | E |   PROX |    3 | Osmanlı kaldırılır
+   1923 CE | E |   YEAR |   45 | Yunan-Türk mübadelesi
+   1934 CE | B |   YEAR |  115 | TRAKYA POGROMU
+   1935 CE | C | DIRECT |    0 | Nürnberg Yasaları
+   1937 CE | D |   YEAR |  129 | SSCB: Kore deportasyonu
+   1938 CE | E | DIRECT |    0 | KRİSTALLNACHT
+   1941 CE | B |    FAR |  225 | FARHUD (Bağdat)
+   1941 CE | B |    FAR |  198 | IAŞİ POGROMU (Romanya)
+   1941 CE | B |    FAR |  196 | LVİV POGROMU
+   1941 CE | B |    FAR |  186 | JEDWABNE POGROMU
+   1942 CE | B | DIRECT |    0 | WANNSEE
+   1942 CE | B | DIRECT |    0 | Japon toplama kampları
+   1944 CE | C |   YEAR |  149 | Çeçen deportasyonu
+   1944 CE | C |    FAR |  234 | Kırım Tatarı deport.
+   1945 CE | D |    FAR |  182 | TRABLUS POGROMU
+   1946 CE | E |   YEAR |  115 | KIELCE POGROMU
+   1947 CE | E |    FAR |  250 | PARTITION
+   1947 CE | A |   YEAR |  170 | HALEP POGROMU
+   1948 CE | A |   PROX |   18 | NAKBA
+   1955 CE | A |    FAR |  268 | İstanbul Pogromu
+   1962 CE | E |   YEAR |   99 | Cezayir pieds-noirs
+   1964 CE | A |   YEAR |   74 | İstanbul Rum sürgünü
+   1972 CE | A |   YEAR |   37 | Uganda Asyalılar
+   1974 CE | B |    FAR |  183 | Kıbrıs
+   1975 CE | C |   YEAR |  112 | Kamboçya Kızıl Kmer
+   1988 CE | A |   YEAR |   85 | SUMGAYIT POGROMU
+   1988 CE | A |   YEAR |  133 | KİROVABAD POGROMU
+   1989 CE | B |    FAR |  196 | Bulgaristan: Türk göçü
+   1990 CE | B | DIRECT |    0 | BAKÜ POGROMU
+   1992 CE | C |   YEAR |  166 | Hocalı Katliamı
+   1992 CE | C |    FAR |  215 | Bosna etnik temizlik
+   1993 CE | D |   YEAR |   70 | SİVAS KATLIAMI
+   1994 CE | E |    FAR |  188 | RUANDA
+   1995 CE | E |    FAR |  229 | Srebrenica
+   1998 CE | B |   YEAR |   37 | Kosova
+   2014 CE | B |    FAR |  195 | Ezidi soykırımı
+   2017 CE | D |   YEAR |  122 | Rohingya
+   2018 CE | E |   YEAR |  112 | ABD sınır krizi
+   2022 CE | B |   PROX |   26 | Ukrayna savaşı
+   2023 CE | C |   PROX |   11 | Karabakh Ermeni ayrılışı
+   2023 CE | C |   YEAR |   41 | Gazze
+
+============================================================
+Test 1: Nearest-retrograde series distribution (n=82)
+============================================================
+
+Series | Observed | Expected |   Diff |  (O-E)squared/E
+------------------------------------------------------------
+     A |       14 |     16.4 |   -2.4 |           0.351
+     B |       22 |     16.4 |   +5.6 |           1.912
+     C |       14 |     16.4 |   -2.4 |           0.351
+     D |       15 |     16.4 |   -1.4 |           0.120
+     E |       17 |     16.4 |   +0.6 |           0.022
+
+Chi-square = 2.756 (df=4)
+  -> p > 0.20 not significant
+
+============================================================
+Test 2: DIRECT+PROXIMATE frequency by series
+============================================================
+
+Series | DIRECT | PROX | YEAR |  FAR |  D+P
+--------------------------------------------------
+     A |      1 |    3 |    7 |    3 |    4
+     B |      3 |    3 |    6 |   10 |    6
+     C |      2 |    1 |    6 |    5 |    3
+     D |      3 |    0 |    8 |    4 |    3
+     E |      2 |    2 |    8 |    5 |    4
+
+Chi-square (D+P) = 1.500 (df=4)
+  -> p > 0.20 not significant
+
+============================================================
+Test 3: Monte Carlo distance correlation (5000 sims, seed=42)
+============================================================
+
+Series |  Obs mean |  Expected |  p-value |          Result
+------------------------------------------------------------
+     A |     677d |     708d |   0.2512 | not significant
+     B |     722d |     709d |   0.6022 | not significant
+     C |     747d |     710d |   0.7880 | not significant
+     D |     726d |     708d |   0.6438 | not significant
+     E |     672d |     709d |   0.2144 | not significant
+
+============================================================
+Test 4: Period-stratified series distribution
+============================================================
+
+  Ancient (734 BCE - 415 CE) (n=11):
+    A:  1 #
+    B:  5 #####
+    C:  0 
+    D:  3 ###
+    E:  2 ##
+
+  Medieval (1096-1421) (n=11):
+    A:  2 ##
+    B:  1 #
+    C:  3 ###
+    D:  3 ###
+    E:  2 ##
+
+  Early Modern (1492-1755) (n=9):
+    A:  4 ####
+    B:  1 #
+    C:  1 #
+    D:  2 ##
+    E:  1 #
+
+  19th century (1821-1913) (n=9):
+    A:  0 
+    B:  2 ##
+    C:  2 ##
+    D:  3 ###
+    E:  2 ##
+
+  20th-21st century (1915-2023) (n=42):
+    A:  7 #######
+    B: 13 #############
+    C:  8 ########
+    D:  4 ####
+    E: 10 ##########
+
+================================================================================
+Summary of paper's main findings
+================================================================================
+  No test reaches p < 0.05.
+  Series B and Series E both exceed expected frequency.
+  Strongest single correlation: Kristallnacht (1938-11-09), Series E.
+  See docs/paper.md or docs/makale-tr.md for full discussion.
+  See docs/replication-notes.md for the n=474 follow-up null result.
